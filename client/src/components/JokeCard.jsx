@@ -4,14 +4,14 @@ const JokeCard = ({ joke, onFavorite }) => {
   return (
     <div
       className="p-4 border rounded shadow"
-      style={{
-        border: "1px solid #ddd",
-        borderRadius: "8px",
-        padding: "10px",
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-      }}
+      // style={{
+      //   border: "1px solid #ddd",
+      //   borderRadius: "8px",
+      //   padding: "10px",
+      //   display: "flex",
+      //   justifyContent: "space-between",
+      //   alignItems: "center",
+      // }}
     >
       <p>{joke.jokeText || joke.joke}</p>
       {onFavorite && (
